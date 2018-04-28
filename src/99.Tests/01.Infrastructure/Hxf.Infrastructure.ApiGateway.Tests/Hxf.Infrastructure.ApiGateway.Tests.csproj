@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Hxf.Infrastructure.ApiGateway.Tests.csproj.vspscc" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.3.0" />
+    <PackageReference Include="MSTest.TestAdapter" Version="1.1.18" />
+    <PackageReference Include="MSTest.TestFramework" Version="1.1.18" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\01.Infrastructure\Hx.Infrastructure.Consuls\Hx.Infrastructure.Consuls.csproj" />
+    <ProjectReference Include="..\..\..\01.Infrastructure\Hx.Infrastructure.Zookeepers\Hx.Infrastructure.Zookeepers.csproj" />
+    <ProjectReference Include="..\..\..\01.Infrastructure\Hxf.Infrastructure.ApiGateway\Hxf.Infrastructure.ApiGateway.csproj" />
+  </ItemGroup>
+
+</Project>

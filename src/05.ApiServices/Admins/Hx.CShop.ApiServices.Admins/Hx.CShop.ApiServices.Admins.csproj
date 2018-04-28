@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\01.Infrastructure\Hxf.Infrastructure.Data\Hxf.Infrastructure.Data.csproj" />
+    <ProjectReference Include="..\..\..\01.Infrastructure\Hxf.Infrastructure.EventSources\Hxf.Infrastructure.EventSources.csproj" />
+    <ProjectReference Include="..\..\..\03.Repositories\Hx.CShop.Repository.Admins\Hx.CShop.Repository.Admins.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Serilog" Version="2.6.0" />
+  </ItemGroup>
+</Project>

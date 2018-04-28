@@ -1,0 +1,37 @@
+﻿namespace Hxf.Infrastructure.ApiGateway.Middleware
+{
+    public enum MiddlewareErrorCode {
+        UnauthenticatedError,
+        UnknownError,
+        DownstreampathTemplateAlreadyUsedError,
+        UnableToFindDownstreamRouteError,
+        CannotAddDataError,
+        CannotFindServiceError,
+        UnableToCompleteRequestError,
+        UnableToCreateAuthenticationHandlerError,
+        UnsupportedAuthenticationProviderError,
+        CannotFindClaimError,
+        ParsingConfigurationHeaderError,
+        NoInstructionsError,
+        InstructionNotForClaimsError,
+        UnauthorizedError,
+        ClaimValueNotAuthorisedError,
+        ScopeNotAuthorisedError,
+        UserDoesNotHaveClaimError,
+        DownstreamPathTemplateContainsSchemeError,
+        DownstreamPathNullOrEmptyError,
+        DownstreamSchemeNullOrEmptyError,
+        DownstreamHostNullOrEmptyError,
+        ServicesAreNullError,
+        ServicesAreEmptyError,
+        UnableToFindServiceDiscoveryProviderError,
+        UnableToFindLoadBalancerError,
+        RequestTimedOutError,
+        UnableToFindQoSProviderError,
+        UnableToSetConfigInConsulError,
+        UnmappableRequestError,
+        RateLimitOptionsError,
+        PathTemplateDoesntStartWithForwardSlash,
+        FileValidationFailedError
+    }
+}

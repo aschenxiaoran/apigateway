@@ -1,0 +1,11 @@
+F:\hxf\HxFramework\02_Code\01_SourceCode\src\01.Infrastructure\Hx.Infrastructure.Zookeepers\bin\Debug\netcoreapp2.0\Hx.Infrastructure.Zookeepers.deps.json
+F:\hxf\HxFramework\02_Code\01_SourceCode\src\01.Infrastructure\Hx.Infrastructure.Zookeepers\bin\Debug\netcoreapp2.0\Hx.Infrastructure.Zookeepers.dll
+F:\hxf\HxFramework\02_Code\01_SourceCode\src\01.Infrastructure\Hx.Infrastructure.Zookeepers\bin\Debug\netcoreapp2.0\Hx.Infrastructure.Zookeepers.pdb
+F:\hxf\HxFramework\02_Code\01_SourceCode\src\01.Infrastructure\Hx.Infrastructure.Zookeepers\bin\Debug\netcoreapp2.0\Hxf.Infrastructure.ApiGateway.dll
+F:\hxf\HxFramework\02_Code\01_SourceCode\src\01.Infrastructure\Hx.Infrastructure.Zookeepers\bin\Debug\netcoreapp2.0\Hxf.Infrastructure.ApiGateway.pdb
+F:\hxf\HxFramework\02_Code\01_SourceCode\src\01.Infrastructure\Hx.Infrastructure.Zookeepers\obj\Debug\netcoreapp2.0\Hx.Infrastructure.Zookeepers.csprojResolveAssemblyReference.cache
+F:\hxf\HxFramework\02_Code\01_SourceCode\src\01.Infrastructure\Hx.Infrastructure.Zookeepers\obj\Debug\netcoreapp2.0\Hx.Infrastructure.Zookeepers.csproj.CoreCompileInputs.cache
+F:\hxf\HxFramework\02_Code\01_SourceCode\src\01.Infrastructure\Hx.Infrastructure.Zookeepers\obj\Debug\netcoreapp2.0\Hx.Infrastructure.Zookeepers.AssemblyInfoInputs.cache
+F:\hxf\HxFramework\02_Code\01_SourceCode\src\01.Infrastructure\Hx.Infrastructure.Zookeepers\obj\Debug\netcoreapp2.0\Hx.Infrastructure.Zookeepers.AssemblyInfo.cs
+F:\hxf\HxFramework\02_Code\01_SourceCode\src\01.Infrastructure\Hx.Infrastructure.Zookeepers\obj\Debug\netcoreapp2.0\Hx.Infrastructure.Zookeepers.dll
+F:\hxf\HxFramework\02_Code\01_SourceCode\src\01.Infrastructure\Hx.Infrastructure.Zookeepers\obj\Debug\netcoreapp2.0\Hx.Infrastructure.Zookeepers.pdb

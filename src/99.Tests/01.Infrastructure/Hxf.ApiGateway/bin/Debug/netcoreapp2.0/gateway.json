@@ -1,0 +1,15 @@
+﻿{
+  "DiscoveryServiceProvider": {
+    "Host": "127.0.0.1",
+    "Port": 8500,
+    "ProviderType": 1,
+    "UserName": "8500",
+    "Password": "8500"
+  },
+  "CircuitBreaker": {
+    "Timeout": 500,
+    "ExceptionsAllowedBeforeBreaking": 3,
+    "DurationOfBreak": 10
+  }
+
+}

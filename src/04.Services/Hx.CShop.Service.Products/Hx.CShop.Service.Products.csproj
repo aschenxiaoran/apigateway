@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.AspNetCore" Version="7.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\01.Infrastructure\Hxf.Infrastructure.Data\Hxf.Infrastructure.Data.csproj" />
+    <ProjectReference Include="..\..\01.Infrastructure\Hxf.Infrastructure\Hxf.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\02.Domain\Hx.CShop.Domain.Products\Hx.CShop.Domain.Products.csproj" />
+    <ProjectReference Include="..\..\03.Repositories\Hx.CShop.Repository.Products\Hx.CShop.Repository.Products.csproj" />
+  </ItemGroup>
+
+</Project>

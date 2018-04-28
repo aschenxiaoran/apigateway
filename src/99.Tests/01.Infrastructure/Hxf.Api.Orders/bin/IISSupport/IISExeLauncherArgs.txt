@@ -1,0 +1,8 @@
+-p C:\Program Files\dotnet\dotnet.exe
+-pidFile F:\hxf\HxFramework\02_Code\01_SourceCode\src\99.Tests\01.Infrastructure\Hxf.Api.Orders\bin\IISSupport\pidfile.txt
+-wd F:\hxf\HxFramework\02_Code\01_SourceCode\src\99.Tests\01.Infrastructure\Hxf.Api.Orders
+-a exec "F:\hxf\HxFramework\02_Code\01_SourceCode\src\99.Tests\01.Infrastructure\Hxf.Api.Orders\bin\Debug\netcoreapp2.0\Hxf.Api.Orders.dll"
+-pipe e78c8822-5a05-4196-96e2-e8916a162c70
+-pr Hxf.Api.Orders
+-owningPid 13724
+-env ASPNETCORE_CONTENTROOT=F:\hxf\HxFramework\02_Code\01_SourceCode\src\99.Tests\01.Infrastructure\Hxf.Api.Orders|ASPNETCORE_HOSTINGSTARTUPASSEMBLIES=Microsoft.AspNetCore.ApplicationInsights.HostingStartup|ASPNETCORE_ENVIRONMENT=Development|COMPLUS_ForceENC=1|

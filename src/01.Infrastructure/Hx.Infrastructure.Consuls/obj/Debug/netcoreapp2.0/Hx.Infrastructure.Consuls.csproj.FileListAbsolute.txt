@@ -1,0 +1,16 @@
+F:\hxf\HxFramework\02_Code\01_SourceCode\Hx.Infrastructure.Consuls\bin\Debug\netcoreapp2.0\Hx.Infrastructure.Consuls.deps.json
+F:\hxf\HxFramework\02_Code\01_SourceCode\Hx.Infrastructure.Consuls\bin\Debug\netcoreapp2.0\Hx.Infrastructure.Consuls.dll
+F:\hxf\HxFramework\02_Code\01_SourceCode\Hx.Infrastructure.Consuls\obj\Debug\netcoreapp2.0\Hx.Infrastructure.Consuls.csproj.CoreCompileInputs.cache
+F:\hxf\HxFramework\02_Code\01_SourceCode\Hx.Infrastructure.Consuls\obj\Debug\netcoreapp2.0\Hx.Infrastructure.Consuls.AssemblyInfoInputs.cache
+F:\hxf\HxFramework\02_Code\01_SourceCode\Hx.Infrastructure.Consuls\obj\Debug\netcoreapp2.0\Hx.Infrastructure.Consuls.AssemblyInfo.cs
+F:\hxf\HxFramework\02_Code\01_SourceCode\src\01.Infrastructure\Hx.Infrastructure.Consuls\bin\Debug\netcoreapp2.0\Hx.Infrastructure.Consuls.deps.json
+F:\hxf\HxFramework\02_Code\01_SourceCode\src\01.Infrastructure\Hx.Infrastructure.Consuls\bin\Debug\netcoreapp2.0\Hx.Infrastructure.Consuls.dll
+F:\hxf\HxFramework\02_Code\01_SourceCode\src\01.Infrastructure\Hx.Infrastructure.Consuls\bin\Debug\netcoreapp2.0\Hx.Infrastructure.Consuls.pdb
+F:\hxf\HxFramework\02_Code\01_SourceCode\src\01.Infrastructure\Hx.Infrastructure.Consuls\bin\Debug\netcoreapp2.0\Hxf.Infrastructure.ApiGateway.dll
+F:\hxf\HxFramework\02_Code\01_SourceCode\src\01.Infrastructure\Hx.Infrastructure.Consuls\bin\Debug\netcoreapp2.0\Hxf.Infrastructure.ApiGateway.pdb
+F:\hxf\HxFramework\02_Code\01_SourceCode\src\01.Infrastructure\Hx.Infrastructure.Consuls\obj\Debug\netcoreapp2.0\Hx.Infrastructure.Consuls.csprojResolveAssemblyReference.cache
+F:\hxf\HxFramework\02_Code\01_SourceCode\src\01.Infrastructure\Hx.Infrastructure.Consuls\obj\Debug\netcoreapp2.0\Hx.Infrastructure.Consuls.csproj.CoreCompileInputs.cache
+F:\hxf\HxFramework\02_Code\01_SourceCode\src\01.Infrastructure\Hx.Infrastructure.Consuls\obj\Debug\netcoreapp2.0\Hx.Infrastructure.Consuls.AssemblyInfoInputs.cache
+F:\hxf\HxFramework\02_Code\01_SourceCode\src\01.Infrastructure\Hx.Infrastructure.Consuls\obj\Debug\netcoreapp2.0\Hx.Infrastructure.Consuls.AssemblyInfo.cs
+F:\hxf\HxFramework\02_Code\01_SourceCode\src\01.Infrastructure\Hx.Infrastructure.Consuls\obj\Debug\netcoreapp2.0\Hx.Infrastructure.Consuls.dll
+F:\hxf\HxFramework\02_Code\01_SourceCode\src\01.Infrastructure\Hx.Infrastructure.Consuls\obj\Debug\netcoreapp2.0\Hx.Infrastructure.Consuls.pdb

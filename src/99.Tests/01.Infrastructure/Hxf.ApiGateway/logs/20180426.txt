@@ -1,0 +1,76 @@
+2018-04-26 15:23:56.712 +08:00 [Error] error call middlware
+2018-04-26 15:23:56.750 +08:00 [Error] Object reference not set to an instance of an object.
+2018-04-26 15:23:56.777 +08:00 [Error]    at Hxf.Infrastructure.ApiGateway.ServiceDiscovery.Middleware.LoadBalanceMiddleware.<Invoke>d__4.MoveNext() in F:\hxf\HxFramework\02_Code\01_SourceCode\src\01.Infrastructure\Hxf.Infrastructure.ApiGateway\ServiceDiscovery\Middleware\LoadBalanceMiddleware.cs:line 25
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Hxf.Infrastructure.ApiGateway.Route.Middleware.ResetRouteMiddleware.<Invoke>d__4.MoveNext() in F:\hxf\HxFramework\02_Code\01_SourceCode\src\01.Infrastructure\Hxf.Infrastructure.ApiGateway\Route\Middleware\ResetRouteMiddleware.cs:line 31
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Hxf.Infrastructure.ApiGateway.Requester.Middleware.InitHttpRequestMiddleware.<Invoke>d__3.MoveNext() in F:\hxf\HxFramework\02_Code\01_SourceCode\src\01.Infrastructure\Hxf.Infrastructure.ApiGateway\Requester\Middleware\InitHttpRequestMiddleware.cs:line 31
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Hxf.Infrastructure.ApiGateway.Responser.ResponderMiddleware.<Invoke>d__5.MoveNext() in F:\hxf\HxFramework\02_Code\01_SourceCode\src\01.Infrastructure\Hxf.Infrastructure.ApiGateway\Responser\Middleware\ResponderMiddleware.cs:line 38
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Hxf.Infrastructure.ApiGateway.Errors.Middleware.UncaughtExceptionMiddleware.<Invoke>d__2.MoveNext() in F:\hxf\HxFramework\02_Code\01_SourceCode\src\01.Infrastructure\Hxf.Infrastructure.ApiGateway\Errors\Middleware\UncaughtExceptionMiddleware.cs:line 18
+2018-04-26 15:23:56.812 +08:00 [Error] error call middlware
+2018-04-26 15:23:56.813 +08:00 [Error] Object reference not set to an instance of an object.
+2018-04-26 15:23:56.814 +08:00 [Error]    at Hxf.Infrastructure.ApiGateway.ServiceDiscovery.Middleware.LoadBalanceMiddleware.<Invoke>d__4.MoveNext() in F:\hxf\HxFramework\02_Code\01_SourceCode\src\01.Infrastructure\Hxf.Infrastructure.ApiGateway\ServiceDiscovery\Middleware\LoadBalanceMiddleware.cs:line 25
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Hxf.Infrastructure.ApiGateway.Route.Middleware.ResetRouteMiddleware.<Invoke>d__4.MoveNext() in F:\hxf\HxFramework\02_Code\01_SourceCode\src\01.Infrastructure\Hxf.Infrastructure.ApiGateway\Route\Middleware\ResetRouteMiddleware.cs:line 31
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Hxf.Infrastructure.ApiGateway.Requester.Middleware.InitHttpRequestMiddleware.<Invoke>d__3.MoveNext() in F:\hxf\HxFramework\02_Code\01_SourceCode\src\01.Infrastructure\Hxf.Infrastructure.ApiGateway\Requester\Middleware\InitHttpRequestMiddleware.cs:line 31
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Hxf.Infrastructure.ApiGateway.Responser.ResponderMiddleware.<Invoke>d__5.MoveNext() in F:\hxf\HxFramework\02_Code\01_SourceCode\src\01.Infrastructure\Hxf.Infrastructure.ApiGateway\Responser\Middleware\ResponderMiddleware.cs:line 38
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Hxf.Infrastructure.ApiGateway.Errors.Middleware.UncaughtExceptionMiddleware.<Invoke>d__2.MoveNext() in F:\hxf\HxFramework\02_Code\01_SourceCode\src\01.Infrastructure\Hxf.Infrastructure.ApiGateway\Errors\Middleware\UncaughtExceptionMiddleware.cs:line 18
+2018-04-26 15:27:59.653 +08:00 [Error] code:CannotFindServiceError,message:在consul中无有效的服务可用
+2018-04-26 15:28:04.295 +08:00 [Error] code:CannotFindServiceError,message:在consul中无有效的服务可用
+2018-04-26 15:28:05.215 +08:00 [Error] code:CannotFindServiceError,message:在consul中无有效的服务可用
+2018-04-26 15:28:05.780 +08:00 [Error] code:CannotFindServiceError,message:在consul中无有效的服务可用
+2018-04-26 15:28:06.059 +08:00 [Error] code:CannotFindServiceError,message:在consul中无有效的服务可用
+2018-04-26 15:28:06.428 +08:00 [Error] code:CannotFindServiceError,message:在consul中无有效的服务可用
+2018-04-26 15:28:06.638 +08:00 [Error] code:CannotFindServiceError,message:在consul中无有效的服务可用
+2018-04-26 15:28:06.858 +08:00 [Error] code:CannotFindServiceError,message:在consul中无有效的服务可用
+2018-04-26 15:28:07.659 +08:00 [Error] code:CannotFindServiceError,message:在consul中无有效的服务可用
+2018-04-26 15:28:08.654 +08:00 [Error] code:CannotFindServiceError,message:在consul中无有效的服务可用
+2018-04-26 15:28:09.989 +08:00 [Error] code:CannotFindServiceError,message:在consul中无有效的服务可用
+2018-04-26 17:14:04.195 +08:00 [Error] code:CannotFindServiceError,message:在consul中无有效的服务可用
+2018-04-26 17:14:12.470 +08:00 [Error] code:CannotFindServiceError,message:在consul中无有效的服务可用
+2018-04-26 17:14:13.904 +08:00 [Error] code:CannotFindServiceError,message:在consul中无有效的服务可用
+2018-04-26 17:14:14.803 +08:00 [Error] code:CannotFindServiceError,message:在consul中无有效的服务可用
+2018-04-26 17:14:43.611 +08:00 [Error] code:CannotFindServiceError,message:在consul中无有效的服务可用
+2018-04-26 17:15:31.321 +08:00 [Error] code:CannotFindServiceError,message:在consul中无有效的服务可用
+2018-04-26 17:16:22.581 +08:00 [Error] code:CannotFindServiceError,message:在consul中无有效的服务可用
+2018-04-26 17:24:08.390 +08:00 [Error] code:UnmappableRequestError,message:Error when parsing incoming request, exception: 无效路由请求
+2018-04-26 17:24:50.152 +08:00 [Error] code:UnmappableRequestError,message:Error when parsing incoming request, exception: 无效路由请求
+2018-04-26 17:26:54.685 +08:00 [Error] code:UnmappableRequestError,message:Error when parsing incoming request, exception: 无效路由请求
+2018-04-26 17:26:58.958 +08:00 [Error] code:UnmappableRequestError,message:Error when parsing incoming request, exception: 无效路由请求
+2018-04-26 17:27:16.459 +08:00 [Error] code:UnmappableRequestError,message:Error when parsing incoming request, exception: 无效路由请求
+2018-04-26 17:29:18.700 +08:00 [Error] code:UnmappableRequestError,message:Error when parsing incoming request, exception: 无效路由请求
+2018-04-26 17:30:04.274 +08:00 [Error] code:UnmappableRequestError,message:Error when parsing incoming request, exception: 无效路由请求
+2018-04-26 17:30:32.610 +08:00 [Error] code:UnmappableRequestError,message:Error when parsing incoming request, exception: 无效路由请求
+2018-04-26 17:31:00.259 +08:00 [Error] code:UnmappableRequestError,message:Error when parsing incoming request, exception: 无效路由请求
+2018-04-26 17:31:11.276 +08:00 [Error] code:UnmappableRequestError,message:Error when parsing incoming request, exception: 无效路由请求
+2018-04-26 17:31:21.994 +08:00 [Error] code:UnmappableRequestError,message:Error when parsing incoming request, exception: 无效路由请求
+2018-04-26 17:31:24.227 +08:00 [Error] code:UnmappableRequestError,message:Error when parsing incoming request, exception: 无效路由请求
+2018-04-26 17:31:42.885 +08:00 [Error] code:UnmappableRequestError,message:Error when parsing incoming request, exception: 无效路由请求
+2018-04-26 17:31:52.830 +08:00 [Error] code:UnmappableRequestError,message:Error when parsing incoming request, exception: 无效路由请求
+2018-04-26 17:31:56.777 +08:00 [Error] code:UnmappableRequestError,message:Error when parsing incoming request, exception: 无效路由请求
+2018-04-26 17:32:02.074 +08:00 [Error] code:UnmappableRequestError,message:Error when parsing incoming request, exception: 无效路由请求
+2018-04-26 17:32:07.411 +08:00 [Error] code:UnmappableRequestError,message:Error when parsing incoming request, exception: 无效路由请求
+2018-04-26 17:32:21.908 +08:00 [Error] code:UnmappableRequestError,message:Error when parsing incoming request, exception: 无效路由请求
+2018-04-26 17:32:23.239 +08:00 [Error] code:UnmappableRequestError,message:Error when parsing incoming request, exception: 无效路由请求
+2018-04-26 17:32:24.181 +08:00 [Error] code:UnmappableRequestError,message:Error when parsing incoming request, exception: 无效路由请求

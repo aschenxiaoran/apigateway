@@ -1,0 +1,24 @@
+﻿{
+  "GlobalApiConfig": {
+    "AdminPath": "http"
+  },
+
+  "ApiRouteList": [
+    {
+      "Scheme": "http",
+      "Host": "localhost",
+      "Port": "80",
+      "ServiceName": "Admin",
+      "Version": "0001",
+      "LoadBalanceType": "1"
+    },
+    {
+      "Scheme": "http",
+      "Host": "localhost",
+      "Port": "81",
+      "ServiceName": "Basic",
+      "Version": "0001",
+      "LoadBalanceType": "1"
+    }
+  ]
+}
