@@ -33,3 +33,12 @@ F:\hxf\HxFramework\02_Code\01_SourceCode\src\01.Infrastructure\Hxf.Infrastructur
 F:\hxf\HxFramework\02_Code\01_SourceCode\src\01.Infrastructure\Hxf.Infrastructure\obj\Debug\netcoreapp2.0\Hxf.Infrastructure.AssemblyInfo.cs
 F:\hxf\HxFramework\02_Code\01_SourceCode\src\01.Infrastructure\Hxf.Infrastructure\obj\Debug\netcoreapp2.0\Hxf.Infrastructure.dll
 F:\hxf\HxFramework\02_Code\01_SourceCode\src\01.Infrastructure\Hxf.Infrastructure\obj\Debug\netcoreapp2.0\Hxf.Infrastructure.pdb
+F:\hxf\git\apigateway\src\01.Infrastructure\Hxf.Infrastructure\bin\Debug\netcoreapp2.0\Hxf.Infrastructure.deps.json
+F:\hxf\git\apigateway\src\01.Infrastructure\Hxf.Infrastructure\bin\Debug\netcoreapp2.0\Hxf.Infrastructure.dll
+F:\hxf\git\apigateway\src\01.Infrastructure\Hxf.Infrastructure\bin\Debug\netcoreapp2.0\Hxf.Infrastructure.pdb
+F:\hxf\git\apigateway\src\01.Infrastructure\Hxf.Infrastructure\obj\Debug\netcoreapp2.0\Hxf.Infrastructure.csprojResolveAssemblyReference.cache
+F:\hxf\git\apigateway\src\01.Infrastructure\Hxf.Infrastructure\obj\Debug\netcoreapp2.0\Hxf.Infrastructure.csproj.CoreCompileInputs.cache
+F:\hxf\git\apigateway\src\01.Infrastructure\Hxf.Infrastructure\obj\Debug\netcoreapp2.0\Hxf.Infrastructure.AssemblyInfoInputs.cache
+F:\hxf\git\apigateway\src\01.Infrastructure\Hxf.Infrastructure\obj\Debug\netcoreapp2.0\Hxf.Infrastructure.AssemblyInfo.cs
+F:\hxf\git\apigateway\src\01.Infrastructure\Hxf.Infrastructure\obj\Debug\netcoreapp2.0\Hxf.Infrastructure.dll
+F:\hxf\git\apigateway\src\01.Infrastructure\Hxf.Infrastructure\obj\Debug\netcoreapp2.0\Hxf.Infrastructure.pdb

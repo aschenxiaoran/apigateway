@@ -1,8 +1,10 @@
 -p C:\Program Files\dotnet\dotnet.exe
--pidFile F:\hxf\HxFramework\02_Code\01_SourceCode\src\99.Tests\01.Infrastructure\Hxf.Api.Orders\bin\IISSupport\pidfile.txt
--wd F:\hxf\HxFramework\02_Code\01_SourceCode\src\99.Tests\01.Infrastructure\Hxf.Api.Orders
--a exec "F:\hxf\HxFramework\02_Code\01_SourceCode\src\99.Tests\01.Infrastructure\Hxf.Api.Orders\bin\Debug\netcoreapp2.0\Hxf.Api.Orders.dll"
--pipe e78c8822-5a05-4196-96e2-e8916a162c70
+-pidFile F:\hxf\git\apigateway\src\99.Tests\01.Infrastructure\Hxf.Api.Orders\bin\IISSupport\pidfile.txt
+-wd F:\hxf\git\apigateway\src\99.Tests\01.Infrastructure\Hxf.Api.Orders
+-a exec "F:\hxf\git\apigateway\src\99.Tests\01.Infrastructure\Hxf.Api.Orders\bin\Debug\netcoreapp2.0\Hxf.Api.Orders.dll"
+-wbe Global\Build56488d6c-6fd4-4cfa-8fd7-b2d74729c492
+-lse Global\Launch9249defb-9ddd-45f7-8a09-adc3c20d1c50
+-pipe 45235856-794f-459b-8eda-7cb426a246b8
 -pr Hxf.Api.Orders
--owningPid 13724
--env ASPNETCORE_CONTENTROOT=F:\hxf\HxFramework\02_Code\01_SourceCode\src\99.Tests\01.Infrastructure\Hxf.Api.Orders|ASPNETCORE_HOSTINGSTARTUPASSEMBLIES=Microsoft.AspNetCore.ApplicationInsights.HostingStartup|ASPNETCORE_ENVIRONMENT=Development|COMPLUS_ForceENC=1|
+-owningPid 14836
+-env ASPNETCORE_CONTENTROOT=F:\hxf\git\apigateway\src\99.Tests\01.Infrastructure\Hxf.Api.Orders|ASPNETCORE_HOSTINGSTARTUPASSEMBLIES=Microsoft.AspNetCore.ApplicationInsights.HostingStartup|ASPNETCORE_ENVIRONMENT=Development|COMPLUS_ForceENC=1|

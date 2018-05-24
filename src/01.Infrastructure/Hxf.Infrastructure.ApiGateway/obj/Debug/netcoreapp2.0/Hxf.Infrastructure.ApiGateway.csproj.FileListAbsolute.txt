@@ -11,3 +11,12 @@ F:\hxf\HxFramework\02_Code\01_SourceCode\src\01.Infrastructure\Hxf.Infrastructur
 F:\hxf\HxFramework\02_Code\01_SourceCode\src\01.Infrastructure\Hxf.Infrastructure.ApiGateway\obj\Debug\netcoreapp2.0\Hxf.Infrastructure.ApiGateway.dll
 F:\hxf\HxFramework\02_Code\01_SourceCode\src\01.Infrastructure\Hxf.Infrastructure.ApiGateway\obj\Debug\netcoreapp2.0\Hxf.Infrastructure.ApiGateway.pdb
 F:\hxf\HxFramework\02_Code\01_SourceCode\src\01.Infrastructure\Hxf.Infrastructure.ApiGateway\obj\Debug\netcoreapp2.0\Hxf.Infrastructure.ApiGateway.csprojResolveAssemblyReference.cache
+F:\hxf\git\apigateway\src\01.Infrastructure\Hxf.Infrastructure.ApiGateway\bin\Debug\netcoreapp2.0\Hxf.Infrastructure.ApiGateway.deps.json
+F:\hxf\git\apigateway\src\01.Infrastructure\Hxf.Infrastructure.ApiGateway\bin\Debug\netcoreapp2.0\Hxf.Infrastructure.ApiGateway.dll
+F:\hxf\git\apigateway\src\01.Infrastructure\Hxf.Infrastructure.ApiGateway\bin\Debug\netcoreapp2.0\Hxf.Infrastructure.ApiGateway.pdb
+F:\hxf\git\apigateway\src\01.Infrastructure\Hxf.Infrastructure.ApiGateway\obj\Debug\netcoreapp2.0\Hxf.Infrastructure.ApiGateway.csprojResolveAssemblyReference.cache
+F:\hxf\git\apigateway\src\01.Infrastructure\Hxf.Infrastructure.ApiGateway\obj\Debug\netcoreapp2.0\Hxf.Infrastructure.ApiGateway.csproj.CoreCompileInputs.cache
+F:\hxf\git\apigateway\src\01.Infrastructure\Hxf.Infrastructure.ApiGateway\obj\Debug\netcoreapp2.0\Hxf.Infrastructure.ApiGateway.AssemblyInfoInputs.cache
+F:\hxf\git\apigateway\src\01.Infrastructure\Hxf.Infrastructure.ApiGateway\obj\Debug\netcoreapp2.0\Hxf.Infrastructure.ApiGateway.AssemblyInfo.cs
+F:\hxf\git\apigateway\src\01.Infrastructure\Hxf.Infrastructure.ApiGateway\obj\Debug\netcoreapp2.0\Hxf.Infrastructure.ApiGateway.dll
+F:\hxf\git\apigateway\src\01.Infrastructure\Hxf.Infrastructure.ApiGateway\obj\Debug\netcoreapp2.0\Hxf.Infrastructure.ApiGateway.pdb

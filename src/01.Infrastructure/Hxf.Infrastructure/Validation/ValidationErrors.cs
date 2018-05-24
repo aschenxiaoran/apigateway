@@ -9,7 +9,7 @@ namespace Hxf.Infrastructure.Validation {
 
         public bool IsValid => _errorItemList.Count == 0;
 
-        public IEnumerable<ValidationErrorItem> ErrorItems { get { return _errorItemList; } }
+        public IEnumerable<ValidationErrorItem> ErrorItems => _errorItemList;
 
         public IValidationErrors AddSystemError(string propertyName = "SystemError", string errorMessage = "系统错误",
             object attemptedValue = null, bool customState = false) {

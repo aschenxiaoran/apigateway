@@ -6,10 +6,20 @@
     "UserName": "8500",
     "Password": "8500"
   },
+
   "CircuitBreaker": {
     "Timeout": 500,
     "ExceptionsAllowedBeforeBreaking": 3,
     "DurationOfBreak": 10
-  }
+  },
+
+  "RateLimit": {
+    "EnableRateLimit": true,
+    "ClientId": "X-ClientId",
+    "HttpStatusCode": 429,
+    "LimitCount": 1,
+    "Period": "5m",
+    "DisableRateLimitHeaders": false 
+  } 
 
 }

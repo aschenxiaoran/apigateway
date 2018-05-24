@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Hxf.Infrastructure.ApiGateway.Configuration;
@@ -6,6 +7,10 @@ using Hxf.Infrastructure.ApiGateway.Middleware;
 using Microsoft.AspNetCore.Http;
 
 namespace Hxf.Infrastructure.ApiGateway.RateLimit {
+
+    /// <summary>
+    /// 限流中间件
+    /// </summary>
     public class RateLimitMiddleware : AbstractMiddleware {
 
         private readonly RequestDelegate _nextStep;
@@ -27,12 +32,24 @@ namespace Hxf.Infrastructure.ApiGateway.RateLimit {
             }
 
             var clientIdentity = GetClientRequestIdentity(context, _rateLimitConfig);
+            if (IsWhiteList(clientIdentity, _rateLimitConfig.ClientWhiteList)) {
+                await _nextStep.Invoke(context);
+                return;
+            }
+
+            if (_rateLimitConfig.LimitCount <= 0)
+            {
+                await _nextStep.Invoke(context);
+                return;
+            }
 
         }
 
+
+
         #region private methods
 
-        private ClientRequestIdentity GetClientRequestIdentity(HttpContext context, RateLimitConfig rateLimitConfig) {
+        private static ClientRequestIdentity GetClientRequestIdentity(HttpContext context, RateLimitConfig rateLimitConfig) {
             var clientId = GetClientId(context, rateLimitConfig);
             var path = context.Request.Path.ToString().ToLowerInvariant();
             var httpMethod = context.Request.Method.ToLowerInvariant();
@@ -48,29 +65,13 @@ namespace Hxf.Infrastructure.ApiGateway.RateLimit {
             return clientId;
         }
 
+        private static bool IsWhiteList(ClientRequestIdentity clientIdentity, IList<string> clientWhiteList) {
+            if (clientWhiteList == null || clientWhiteList.Count == 0 || string.IsNullOrWhiteSpace(clientIdentity.ClientId)) {
+                return false;
+            }
+            return clientWhiteList.Contains(clientIdentity.ClientId);
+        }
+
         #endregion
-    }
-
-    /// <summary>
-    /// 客户端请求标识
-    /// </summary>
-    internal class ClientRequestIdentity {
-        public ClientRequestIdentity(string clientId, string path, string httpMethod) {
-            ClientId = clientId;
-            Path = path;
-            HttpMethod = httpMethod;
-        }
-        public string ClientId { get; private set; }
-        public string Path { get; private set; }
-        public string HttpMethod { get; private set; }
-    }
-
-    public class RateLimitHandler : IRateLimitHandler {
-        public RateLimitHandler(RateLimitConfig rateLimit) {
-
-        }
-    }
-
-    internal interface IRateLimitHandler {
     }
 }

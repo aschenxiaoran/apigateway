@@ -12,5 +12,6 @@ namespace Hxf.Infrastructure.ApiGateway.RateLimit
         public int LimitCount { get; set; }
         public string Period { get; set; }
         public bool DisableRateLimitHeaders { get; set; }
+        public IList<string> ClientWhiteList { get; set; }
     }
 }
