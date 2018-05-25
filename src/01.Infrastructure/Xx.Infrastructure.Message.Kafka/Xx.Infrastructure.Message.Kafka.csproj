@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Confluent.Kafka" Version="0.11.4" />
+    <PackageReference Include="Confluent.Kafka.Extensions" Version="1.0.0" />
+    <PackageReference Include="Confluent.Kafka.log4net" Version="1.0.3" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="1.1.0" />
+  </ItemGroup>
+
+</Project>

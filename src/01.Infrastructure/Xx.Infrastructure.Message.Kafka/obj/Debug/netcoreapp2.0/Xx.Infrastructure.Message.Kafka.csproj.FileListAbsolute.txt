@@ -1,0 +1,9 @@
+F:\hxf\git\apigateway\src\01.Infrastructure\Xx.Infrastructure.Message.Kafka\bin\Debug\netcoreapp2.0\Xx.Infrastructure.Message.Kafka.deps.json
+F:\hxf\git\apigateway\src\01.Infrastructure\Xx.Infrastructure.Message.Kafka\bin\Debug\netcoreapp2.0\Xx.Infrastructure.Message.Kafka.dll
+F:\hxf\git\apigateway\src\01.Infrastructure\Xx.Infrastructure.Message.Kafka\obj\Debug\netcoreapp2.0\Xx.Infrastructure.Message.Kafka.csprojResolveAssemblyReference.cache
+F:\hxf\git\apigateway\src\01.Infrastructure\Xx.Infrastructure.Message.Kafka\obj\Debug\netcoreapp2.0\Xx.Infrastructure.Message.Kafka.csproj.CoreCompileInputs.cache
+F:\hxf\git\apigateway\src\01.Infrastructure\Xx.Infrastructure.Message.Kafka\obj\Debug\netcoreapp2.0\Xx.Infrastructure.Message.Kafka.AssemblyInfoInputs.cache
+F:\hxf\git\apigateway\src\01.Infrastructure\Xx.Infrastructure.Message.Kafka\obj\Debug\netcoreapp2.0\Xx.Infrastructure.Message.Kafka.AssemblyInfo.cs
+F:\hxf\git\apigateway\src\01.Infrastructure\Xx.Infrastructure.Message.Kafka\bin\Debug\netcoreapp2.0\Xx.Infrastructure.Message.Kafka.pdb
+F:\hxf\git\apigateway\src\01.Infrastructure\Xx.Infrastructure.Message.Kafka\obj\Debug\netcoreapp2.0\Xx.Infrastructure.Message.Kafka.dll
+F:\hxf\git\apigateway\src\01.Infrastructure\Xx.Infrastructure.Message.Kafka\obj\Debug\netcoreapp2.0\Xx.Infrastructure.Message.Kafka.pdb
