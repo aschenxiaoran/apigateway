@@ -47,7 +47,6 @@ namespace Hxf.Infrastructure.EventSources.ChainExecutor {
             using(var transaction = db.Database.BeginTransaction()) {
                 try {
                     await InternalDoNextExecutor(command);
-                    // db.Commit();
                     transaction.Commit();
                      _executorConfigs.Clear();
                 } catch (DomainException ex) {

@@ -9,12 +9,8 @@ namespace Hxf.Infrastructure.EventSources.ChainExecutor {
             _executor = executor;
         }
 
-        public ICommandExecutor Executor {
-            get { return _executor; }
-        }
+        public ICommandExecutor Executor => _executor;
 
-        public string Name {
-            get { return _executor.ToString(); }
-        }
+        public string Name => _executor.ToString();
     }
 }
